@@ -1,0 +1,173 @@
+<!-- admin.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CraftNest Studio - Admin Dashboard</title>
+  <style>
+    body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #f9f9f9; }
+    header { background: #b23b3b; padding: 1rem; color: white; text-align: center; font-size: 1.5rem; }
+    nav { background: #fff; padding: 1rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: flex; justify-content: space-around; }
+    nav a { color: #b23b3b; text-decoration: none; font-weight: bold; }
+    main { padding: 2rem; }
+    .card { background: white; padding: 1.5rem; margin-bottom: 1rem; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
+    footer { text-align: center; padding: 1rem; background: #eee; font-size: 0.8rem; color: #888; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <header>CraftNest Studio - Admin Dashboard</header>
+  <nav>
+    <a href="admin.html">Dashboard</a>
+    <a href="orders.html">Orders</a>
+    <a href="confirm.html">Confirm Orders</a>
+    <a href="payment.html">Payments</a>
+    <a href="index.html">Logout</a>
+  </nav>
+  <main>
+    <div class="card">
+      <h2>Welcome, Admin!</h2>
+      <p>Manage orders, payments, and interact with customers here.</p>
+    </div>
+  </main>
+  <footer>
+    Designed by ChatGPT | &copy; 2025 OpenAI. All rights reserved.
+  </footer>
+</body>
+</html>
+
+<!-- customer.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CraftNest Studio - Customer Dashboard</title>
+  <style>
+    body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #f0fdf0; }
+    header { background: #3b9b3b; padding: 1rem; color: white; text-align: center; font-size: 1.5rem; }
+    nav { background: #fff; padding: 1rem; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: flex; justify-content: space-around; }
+    nav a { color: #3b9b3b; text-decoration: none; font-weight: bold; }
+    main { padding: 2rem; }
+    .card { background: white; padding: 1.5rem; margin-bottom: 1rem; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
+    footer { text-align: center; padding: 1rem; background: #eee; font-size: 0.8rem; color: #888; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <header>Welcome to CraftNest Studio</header>
+  <nav>
+    <a href="customer.html">Dashboard</a>
+    <a href="orders.html">My Orders</a>
+    <a href="payment.html">Payment</a>
+    <a href="chat.html">Chat Support</a>
+    <a href="index.html">Logout</a>
+  </nav>
+  <main>
+    <div class="card">
+      <h2>Hi there!</h2>
+      <p>You can track orders, make payments, and chat with us.</p>
+    </div>
+  </main>
+  <footer>
+    Designed by ChatGPT | &copy; 2025 OpenAI. All rights reserved.
+  </footer>
+</body>
+</html>
+
+<!-- confirm.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Confirmation - CraftNest</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background: #f9f9f9; padding: 2rem; }
+    .container { max-width: 600px; margin: auto; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    h2 { color: #b23b3b; }
+    button { margin-top: 1rem; background: #b23b3b; color: white; padding: 0.75rem; border: none; border-radius: 5px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Confirm Your Order</h2>
+    <p>Your design and customization details are received. Please confirm your order below:</p>
+    <button>Confirm Order</button>
+  </div>
+</body>
+</html>
+
+<!-- payment.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Page - CraftNest</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background: #f5faff; padding: 2rem; }
+    .container { max-width: 600px; margin: auto; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    h2 { color: #2d6a4f; }
+    input, select, button {
+      width: 100%; padding: 0.75rem; margin-top: 1rem; border: 1px solid #ccc; border-radius: 6px;
+    }
+    button { background: #2d6a4f; color: white; cursor: pointer; border: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Make a Payment</h2>
+    <input type="text" placeholder="Name on Card">
+    <input type="text" placeholder="Card Number">
+    <input type="text" placeholder="Expiry (MM/YY)">
+    <input type="text" placeholder="CVV">
+    <button>Pay Now</button>
+  </div>
+</body>
+</html>
+
+<!-- chat.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Chat - CraftNest</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background: #fdfcf5; padding: 2rem; }
+    .chat-container { max-width: 600px; margin: auto; background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    #chat-messages { max-height: 300px; overflow-y: auto; margin-bottom: 1rem; padding: 1rem; background: #f7f7f7; border-radius: 6px; }
+    #chat-messages div { margin-bottom: 0.5rem; }
+    #chat-input { display: flex; }
+    #chat-input input { flex: 1; padding: 0.5rem; border-radius: 6px 0 0 6px; border: 1px solid #ccc; }
+    #chat-input button { background: #b23b3b; color: white; border: none; padding: 0.5rem 1rem; border-radius: 0 6px 6px 0; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div class="chat-container">
+    <h2>Live Chat</h2>
+    <div id="chat-messages"></div>
+    <div id="chat-input">
+      <input type="text" id="chatText" placeholder="Type a message...">
+      <button onclick="sendChatMessage()">Send</button>
+    </div>
+  </div>
+
+  <script>
+    function sendChatMessage() {
+      const input = document.getElementById('chatText');
+      const messages = document.getElementById('chat-messages');
+      const text = input.value.trim();
+      if (!text) return;
+      messages.innerHTML += `<div><strong>You:</strong> ${text}</div>`;
+      input.value = '';
+      setTimeout(() => {
+        let reply = "I'm a bot! For urgent help, contact our team on the Payment page.";
+        if (text.toLowerCase().includes("price")) reply = "Prices depend on customization. DM us for a quote!";
+        messages.innerHTML += `<div><strong>Bot:</strong> ${reply}</div>`;
+        messages.scrollTop = messages.scrollHeight;
+      }, 500);
+    }
+  </script>
+</body>
+</html>
